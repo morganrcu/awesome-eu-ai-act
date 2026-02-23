@@ -138,16 +138,16 @@ The [EU AI Act](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R
 
 > AESIA published 16 practical guides in December 2025 — the most comprehensive practical implementation resource available while JTC 21 standards are pending.
 
-- **[AESIA Official Website](https://www.aesia.es)** — Spanish AI supervisory authority.
-- **[AESIA Guide 04](https://www.aesia.es/guias)** — Quality Management System (Art. 17 / prEN 18286)
-- **[AESIA Guide 05](https://www.aesia.es/guias)** — Risk Management System (Art. 9 / prEN 18228)
-- **[AESIA Guide 07](https://www.aesia.es/guias)** — Data Governance + Fairness (Art. 10 / prEN 18284, 18283)
-- **[AESIA Guide 08](https://www.aesia.es/guias)** — Transparency (Art. 13 / prEN 18229-1)
-- **[AESIA Guide 09](https://www.aesia.es/guias)** — Accuracy & Performance (Art. 15 / prEN 18229-2)
-- **[AESIA Guide 10](https://www.aesia.es/guias)** — Robustness (Art. 15.4 / prEN 18229-2)
-- **[AESIA Guide 11](https://www.aesia.es/guias)** — Cybersecurity (Art. 15.5 / prEN 18282)
-- **[AESIA Guide 12](https://www.aesia.es/guias)** — Logging & Record-keeping (Art. 12)
-- **[AESIA Guide 15](https://www.aesia.es/guias)** — Technical Documentation (Art. 11, Annex IV)
+- **[AESIA Official Website](https://aesia.digital.gob.es/es)** — Spanish AI supervisory authority.
+- **[AESIA Guide 04](https://aesia.digital.gob.es/es/guias)** — Quality Management System (Art. 17 / prEN 18286)
+- **[AESIA Guide 05](https://aesia.digital.gob.es/es/guias)** — Risk Management System (Art. 9 / prEN 18228)
+- **[AESIA Guide 07](https://aesia.digital.gob.es/es/guias)** — Data Governance + Fairness (Art. 10 / prEN 18284, 18283)
+- **[AESIA Guide 08](https://aesia.digital.gob.es/es/guias)** — Transparency (Art. 13 / prEN 18229-1)
+- **[AESIA Guide 09](https://aesia.digital.gob.es/es/guias)** — Accuracy & Performance (Art. 15 / prEN 18229-2)
+- **[AESIA Guide 10](https://aesia.digital.gob.es/es/guias)** — Robustness (Art. 15.4 / prEN 18229-2)
+- **[AESIA Guide 11](https://aesia.digital.gob.es/es/guias)** — Cybersecurity (Art. 15.5 / prEN 18282)
+- **[AESIA Guide 12](https://aesia.digital.gob.es/es/guias)** — Logging & Record-keeping (Art. 12)
+- **[AESIA Guide 15](https://aesia.digital.gob.es/es/guias)** — Technical Documentation (Art. 11, Annex IV)
 
 ## Educational Resources
 
