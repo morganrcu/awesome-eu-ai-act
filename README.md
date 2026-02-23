@@ -39,7 +39,6 @@ The [EU AI Act](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R
 
 *Tools to classify AI systems by risk level and assess compliance gaps.*
 
-- **[Venturalitica /assess](https://venturalitica.com/assess)** — Free dual-plane assessment: ISO 42001 organizational maturity (Score A) + EU AI Act product compliance (Score B). Generates AIMS Starting Point Report.
 - **[Modulos Risk Agent](https://modulos.ai)** — Interactive AI risk assessment with EUR quantification. No login required. ISO 42001 certified (first, via CertX).
 - **[Trail-ML](https://trail-ml.com)** — EU AI Act compliance platform. ETH Zurich spin-off. Focus on risk classification and technical documentation.
 - **[Holistic AI](https://holisticai.com)** — AI risk governance platform. Comprehensive auditing and mitigation across 8 risk domains.
