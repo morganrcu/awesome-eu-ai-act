@@ -36,7 +36,7 @@ The [EU AI Act](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R
 
 - **[Venturalitica SDK](https://github.com/Venturalitica/venturalitica-sdk)** — Open-source Python SDK for EU AI Act and ISO 42001 compliance evidence. Generates OSCAL policies, CycloneDX ML BOM, bias audits, and Annex IV documentation. `pip install venturalitica`
 - **[Giskard](https://github.com/Giskard-AI/giskard)** — Open-source LLM testing and red-teaming framework with vulnerability scanning. CLI-first, integrates with HuggingFace and LangChain.
-- **[VerifyWise](https://github.com/verifywise/verifywise)** — Open-source AI governance platform (BSL 1.1). Self-hosted compliance tracking for high-risk AI systems.
+- **[VerifyWise](https://github.com/verifywise-ai/verifywise)** — Open-source AI governance platform. Self-hosted compliance tracking for EU AI Act, ISO 42001, NIST AI RMF.
 - **[Evidently AI](https://github.com/evidentlyai/evidently)** — ML monitoring and evaluation framework. 7K+ stars, 35M+ downloads. No compliance mapping, but strong data quality and drift detection (Art. 10 relevant).
 - **[IBM OpenPages](https://www.ibm.com/products/openpages)** — GRC platform with AI governance module. Enterprise-grade, watsonx.governance integration.
 
@@ -96,9 +96,7 @@ The [EU AI Act](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R
 
 *Institutional frameworks that define and structure the AI Assurance process.*
 
-- **[UK DSIT AI Assurance Guide](https://www.gov.uk/government/publications/the-role-of-ai-assurance-in-responsible-ai-innovation)** — Definitive UK government guide. Defines AI Assurance as a £1.01B ecosystem (524 companies, 2024). Projected £6.5–18.8B by 2035.
-- **[UK AI Assurance Portfolio](https://www.gov.uk/government/publications/ai-assurance-portfolio)** — DSIT catalogue of AI assurance techniques: audits, impact assessments, red-teaming, bias analysis, explainability.
-- **[CDEI AI Assurance Roadmap](https://www.gov.uk/government/publications/the-roadmap-to-an-effective-ai-assurance-ecosystem)** — Centre for Data Ethics & Innovation. Blueprint for a functional AI assurance ecosystem.
+- **[CDEI AI Assurance Roadmap](https://www.gov.uk/government/publications/the-roadmap-to-an-effective-ai-assurance-ecosystem)** — Centre for Data Ethics & Innovation (UK). Blueprint for a functional AI assurance ecosystem. Defines the techniques catalogue: auditing, impact assessment, red-teaming, bias analysis, explainability.
 - **[UK AI Safety Institute](https://www.gov.uk/government/organisations/ai-safety-institute)** — Develops evaluations for frontier models. Framework directly applicable to EU AI Act Art. 15 (accuracy, robustness, cybersecurity).
 - **[Inspect AI](https://github.com/UKGovernmentBEIS/inspect_ai)** — UK AISI open-source framework for LLM safety evaluations. Apache 2.0.
 - **[AI Verify (Singapore IMDA)](https://aiverifyfoundation.sg)** — Governance testing framework. Includes EU AI Act principle mappings.
@@ -185,16 +183,14 @@ The [EU AI Act](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R
 
 ### Articles & Tutorials
 
-- **[EU AI Act Risk Classification: A Decision Tree](https://venturalitica.com/blog)** — Step-by-step classification guide with code examples.
-- **[ISO 42001 for Engineers: From YAML to Certification](https://venturalitica.com/blog)** — Technical implementation guide.
-- **[What is OSCAL and Why AI Governance Needs It](https://venturalitica.com/blog)** — Category-defining explanation of OSCAL for AI compliance.
-- **[EU AI Act Compliance for Python Developers](https://venturalitica.com/blog)** — SDK-based tutorial with working code.
+- **[The EU AI Act Explained (Article by Article)](https://artificialintelligenceact.eu/the-act/)** — Annotated walkthrough by Future of Life Institute. Each article cross-referenced with recitals.
+- **[NIST AI RMF Playbook](https://airc.nist.gov/Docs/2)** — Practical implementation guidance for the AI Risk Management Framework.
 
 ### Key Papers
 
-- **[AI Assurance as Responsible Innovation](https://doi.org/10.1080/23299460.2023.2195395)** — Foundational paper. Defines AI Assurance as the bridge between developer practice and regulatory requirement.
+- **[Overview of the CDEI's Roadmap to an Effective AI Assurance Ecosystem](https://doi.org/10.3389/frai.2022.932358)** — Commentary on the UK blueprint for AI assurance. Frontiers in AI, 2022.
 - **[Mapping the EU AI Act](https://arxiv.org/abs/2403.05982)** — Technical analysis of AI Act requirements. Madiega et al., 2024.
-- **[NIST SP 1270: Bias in AI](https://doi.org/10.6028/NIST.SP.1270)** — Identifying and managing bias. 2022.
+- **[NIST SP 1270: Bias in AI](https://doi.org/10.6028/NIST.SP.1270)** — Identifying and managing bias in AI systems. NIST, 2022.
 
 ## Communities
 
