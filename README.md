@@ -1,8 +1,12 @@
 # Awesome EU AI Act [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> A curated list of tools, frameworks, standards, and resources for EU AI Act compliance and AI governance.
+> A curated list of tools, frameworks, standards, and resources for **AI Assurance** and EU AI Act compliance.
 
-The [EU AI Act](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689) entered into force on 1 August 2024. High-risk AI systems (Annex III) must comply by August 2026 (subject to the [Digital Omnibus](https://digital-strategy.ec.europa.eu/en/policies/digital-omnibus) backstop). This list helps engineers, data scientists, compliance officers, and legal teams navigate the ecosystem.
+**AI Assurance** is *"the process of measuring, evaluating, and communicating the trustworthiness of AI systems"* ([UK DSIT, 2024](https://www.gov.uk/government/publications/the-role-of-ai-assurance-in-responsible-ai-innovation)). It is what the EU AI Act actually requires in practice: Arts. 9–15 mandate risk management, data governance, transparency, oversight, and robustness — all of which require verifiable evidence, not just self-assessment.
+
+> **Assessment tells you WHERE you stand. Assurance proves you've DONE something about it.**
+
+The [EU AI Act](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689) entered into force on 1 August 2024. High-risk AI systems (Annex III) must comply by August 2026 (subject to the [Digital Omnibus](https://digital-strategy.ec.europa.eu/en/policies/digital-omnibus) backstop). This list covers tools that help engineers **generate the evidence** required by law — not just classify risk.
 
 **Contributing:** Pull requests welcome. See [CONTRIBUTING.md](CONTRIBUTING.md).
 
@@ -16,6 +20,7 @@ The [EU AI Act](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R
 - [Monitoring & Observability](#monitoring--observability)
 - [Testing & Red-Teaming](#testing--red-teaming)
 - [Evidence Formats & Frameworks](#evidence-formats--frameworks)
+- [AI Assurance Frameworks](#ai-assurance-frameworks)
 - [Standards](#standards)
 - [Regulatory Documents](#regulatory-documents)
 - [AESIA Resources (Spain)](#aesia-resources-spain)
@@ -69,7 +74,7 @@ The [EU AI Act](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R
 
 ## Testing & Red-Teaming
 
-*Tools for adversarial testing, robustness, and vulnerability scanning (Art. 15 Robustness).*
+*AI Assurance techniques for adversarial testing, robustness, and vulnerability scanning (Art. 15 Robustness).*
 
 - **[Giskard](https://github.com/Giskard-AI/giskard)** — Automated LLM vulnerability scanning and red-teaming. 4K+ GitHub stars.
 - **[DeepEval](https://github.com/confident-ai/deepeval)** — LLM evaluation framework with 14+ evaluation metrics.
@@ -86,6 +91,18 @@ The [EU AI Act](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R
 - **[Model Card Toolkit](https://github.com/tensorflow/model-card-toolkit)** — Google's toolkit for generating model cards (Annex IV.3).
 - **[Croissant](https://github.com/mlcommons/croissant)** — ML dataset format with provenance metadata (Art. 10 data governance).
 - **[SLSA Framework](https://slsa.dev)** — Supply-chain security framework for software artifacts. Relevant for Art. 15.5 cybersecurity.
+
+## AI Assurance Frameworks
+
+*Institutional frameworks that define and structure the AI Assurance process.*
+
+- **[UK DSIT AI Assurance Guide](https://www.gov.uk/government/publications/the-role-of-ai-assurance-in-responsible-ai-innovation)** — Definitive UK government guide. Defines AI Assurance as a £1.01B ecosystem (524 companies, 2024). Projected £6.5–18.8B by 2035.
+- **[UK AI Assurance Portfolio](https://www.gov.uk/government/publications/ai-assurance-portfolio)** — DSIT catalogue of AI assurance techniques: audits, impact assessments, red-teaming, bias analysis, explainability.
+- **[CDEI AI Assurance Roadmap](https://www.gov.uk/government/publications/the-roadmap-to-an-effective-ai-assurance-ecosystem)** — Centre for Data Ethics & Innovation. Blueprint for a functional AI assurance ecosystem.
+- **[UK AI Safety Institute](https://www.gov.uk/government/organisations/ai-safety-institute)** — Develops evaluations for frontier models. Framework directly applicable to EU AI Act Art. 15 (accuracy, robustness, cybersecurity).
+- **[Inspect AI](https://github.com/UKGovernmentBEIS/inspect_ai)** — UK AISI open-source framework for LLM safety evaluations. Apache 2.0.
+- **[AI Verify (Singapore IMDA)](https://aiverifyfoundation.sg)** — Governance testing framework. Includes EU AI Act principle mappings.
+- **[ALTAI (Assessment List for Trustworthy AI)](https://digital-strategy.ec.europa.eu/en/library/assessment-list-trustworthy-artificial-intelligence-altai-self-assessment)** — EU Commission self-assessment tool for Trustworthy AI. Based on the 7 HLEG principles.
 
 ## Standards
 
@@ -175,7 +192,7 @@ The [EU AI Act](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R
 
 ### Key Papers
 
-- **[AI Assurance as Responsible Innovation](https://doi.org/10.1080/23299460.2023.2195395)** — Bridging the developer-regulator divide.
+- **[AI Assurance as Responsible Innovation](https://doi.org/10.1080/23299460.2023.2195395)** — Foundational paper. Defines AI Assurance as the bridge between developer practice and regulatory requirement.
 - **[Mapping the EU AI Act](https://arxiv.org/abs/2403.05982)** — Technical analysis of AI Act requirements. Madiega et al., 2024.
 - **[NIST SP 1270: Bias in AI](https://doi.org/10.6028/NIST.SP.1270)** — Identifying and managing bias. 2022.
 
