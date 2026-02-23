@@ -176,7 +176,7 @@ The [EU AI Act](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R
 
 *Where practitioners discuss EU AI Act compliance.*
 
-- **[Venturalitica Discord](https://discord.gg/venturalitica)** — Community for EU AI Act compliance engineers. Channels: #eu-ai-act, #iso-42001, #sdk-support.
+- **[Venturalitica Discord](https://venturalitica.com/discord)** — Community for EU AI Act compliance engineers. Channels: #eu-ai-act, #iso-42001, #sdk-support.
 - **[MLOps Community Slack](https://go.mlops.community/slack)** — 85K+ MLOps practitioners. Active #ai-governance channel.
 - **[DataTalks.Club Slack](https://datatalks.club/slack.html)** — 50K+ data practitioners.
 - **[IAPP AI Governance Community](https://iapp.org)** — Privacy and AI governance professionals.
