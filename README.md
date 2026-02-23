@@ -139,15 +139,23 @@ The [EU AI Act](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R
 > AESIA published 16 practical guides in December 2025 — the most comprehensive practical implementation resource available while JTC 21 standards are pending.
 
 - **[AESIA Official Website](https://aesia.digital.gob.es/es)** — Spanish AI supervisory authority.
-- **[AESIA Guide 04](https://aesia.digital.gob.es/es/guias)** — Quality Management System (Art. 17 / prEN 18286)
-- **[AESIA Guide 05](https://aesia.digital.gob.es/es/guias)** — Risk Management System (Art. 9 / prEN 18228)
-- **[AESIA Guide 07](https://aesia.digital.gob.es/es/guias)** — Data Governance + Fairness (Art. 10 / prEN 18284, 18283)
-- **[AESIA Guide 08](https://aesia.digital.gob.es/es/guias)** — Transparency (Art. 13 / prEN 18229-1)
-- **[AESIA Guide 09](https://aesia.digital.gob.es/es/guias)** — Accuracy & Performance (Art. 15 / prEN 18229-2)
-- **[AESIA Guide 10](https://aesia.digital.gob.es/es/guias)** — Robustness (Art. 15.4 / prEN 18229-2)
-- **[AESIA Guide 11](https://aesia.digital.gob.es/es/guias)** — Cybersecurity (Art. 15.5 / prEN 18282)
-- **[AESIA Guide 12](https://aesia.digital.gob.es/es/guias)** — Logging & Record-keeping (Art. 12)
-- **[AESIA Guide 15](https://aesia.digital.gob.es/es/guias)** — Technical Documentation (Art. 11, Annex IV)
+- **[All 16 guides (index)](https://aesia.digital.gob.es/es/guias)** — Complete list with PDFs.
+- **[Guide 01 — Introduction to the AI Act](https://aesia.digital.gob.es/storage/media/01-guia-introductoria-al-reglamento-de-ia-1770802981.pdf)** — Overview of the regulation scope, definitions, and obligations.
+- **[Guide 02 — Practical examples](https://aesia.digital.gob.es/storage/media/02-guia-practica-y-ejemplos-para-entender-el-reglamento-de-ia.pdf)** — Worked examples for understanding the AI Act.
+- **[Guide 03 — Conformity Assessment](https://aesia.digital.gob.es/storage/media/03-guia-evaluacion-de-conformidad.pdf)** — Art. 43 conformity assessment procedures.
+- **[Guide 04 — Quality Management System](https://aesia.digital.gob.es/storage/media/04-guia-del-sistema-de-gestion-de-la-calidad.pdf)** — Art. 17 QMS requirements / prEN 18286.
+- **[Guide 05 — Risk Management](https://aesia.digital.gob.es/storage/media/05-guia-de-gestion-de-riesgos.pdf)** — Art. 9 risk management system / prEN 18228.
+- **[Guide 06 — Human Oversight](https://aesia.digital.gob.es/storage/media/06-guia-vigilancia-humana.pdf)** — Art. 14 human oversight measures / prEN 18229-1.
+- **[Guide 07 — Data Governance](https://aesia.digital.gob.es/storage/media/07-guia-de-datos-y-gobernanza-de-datos.pdf)** — Art. 10 data quality, fairness metrics / prEN 18284, 18283.
+- **[Guide 08 — Transparency](https://aesia.digital.gob.es/storage/media/08-guia-transparencia.pdf)** — Art. 13 transparency obligations / prEN 18229-1.
+- **[Guide 09 — Accuracy](https://aesia.digital.gob.es/storage/media/09-guia-de-precision.pdf)** — Art. 15 accuracy and performance metrics / prEN 18229-2.
+- **[Guide 10 — Robustness](https://aesia.digital.gob.es/storage/media/10-guia-solidez.pdf)** — Art. 15.4 robustness, drift detection / prEN 18229-2.
+- **[Guide 11 — Cybersecurity](https://aesia.digital.gob.es/storage/media/11-guia-ciberseguridad.pdf)** — Art. 15.5 cybersecurity / prEN 18282.
+- **[Guide 12 — Logging & Records](https://aesia.digital.gob.es/storage/media/12-guia-de-registros.pdf)** — Art. 12 logging requirements / prEN 18229-1.
+- **[Guide 13 — Post-Market Monitoring](https://aesia.digital.gob.es/storage/media/13-guia-vigilancia-poscomercializacion.pdf)** — Art. 72 post-market surveillance.
+- **[Guide 14 — Incident Management](https://aesia.digital.gob.es/storage/media/14-guia-gestion-de-incidentes.pdf)** — Art. 73 serious incident reporting.
+- **[Guide 15 — Technical Documentation](https://aesia.digital.gob.es/storage/media/15-guia-documentacion-tecnica.pdf)** — Art. 11 + Annex IV documentation requirements.
+- **[Guide 16 — Requirements Checklist](https://aesia.digital.gob.es/storage/media/16-manual-de-checklist-de-guias-de-requisitos.pdf)** — Master checklist covering all 16 guides.
 
 ## Educational Resources
 
