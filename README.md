@@ -183,6 +183,7 @@ The [EU AI Act](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R
 
 ### Articles & Tutorials
 
+- **[EU AI Act Engineering Compliance Guide](https://systima.ai/blog/eu-ai-act-engineering-compliance-guide)** — Practical guide for engineering teams implementing EU AI Act compliance, covering risk classification, technical documentation, audit logging, and conformity assessment.
 - **[The EU AI Act Explained (Article by Article)](https://artificialintelligenceact.eu/the-act/)** — Annotated walkthrough by Future of Life Institute. Each article cross-referenced with recitals.
 - **[NIST AI RMF Playbook](https://airc.nist.gov/Docs/2)** — Practical implementation guidance for the AI Risk Management Framework.
 
