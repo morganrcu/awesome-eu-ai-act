@@ -80,6 +80,7 @@ The [EU AI Act](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R
 - **[DeepEval](https://github.com/confident-ai/deepeval)** — LLM evaluation framework with 14+ evaluation metrics.
 - **[PyRIT](https://github.com/Azure/PyRIT)** — Microsoft's Python Risk Identification Tool for generative AI.
 - **[Inspect AI](https://github.com/UKGovernmentBEIS/inspect_ai)** — UK AISI's framework for LLM safety evaluations.
+- **[Inkog](https://github.com/inkog-io/inkog)** — Open-source security scanner for AI agents. Detects prompt injection, infinite loops, token bombing, SQL injection via LLM, and missing human oversight across 20+ frameworks. Maps vulnerabilities to EU AI Act Articles 9, 14 (Human Oversight), and 15 (Accuracy, Robustness, Cybersecurity). CLI + MCP server with SARIF output.
 - **[AI Verify](https://aiverifyfoundation.sg)** — Singapore government AI testing framework. Supports EU AI Act mappings.
 
 ## Evidence Formats & Frameworks
