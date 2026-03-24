@@ -27,6 +27,7 @@ The [EU AI Act](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R
 - [Educational Resources](#educational-resources)
 - [Communities](#communities)
 - [News & Newsletters](#news--newsletters)
+- [Related Awesome Lists](#related-awesome-lists)
 
 ---
 
@@ -239,6 +240,19 @@ The [EU AI Act](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R
 - **[The Batch (DeepLearning.AI)](https://www.deeplearning.ai/the-batch/)** — AI news with regulation coverage.
 - **[Import AI](https://jack-clark.net)** — Jack Clark's AI research and policy newsletter.
 - **[IAPP Daily Dashboard](https://iapp.org/news/daily-dashboard/)** — Privacy and AI governance news.
+
+## Related Awesome Lists
+
+*Curated lists with overlapping coverage across AI governance, compliance, and responsible AI.*
+
+- **[Awesome Europe](https://github.com/GeiserX/awesome-europe)** — Open-source software for European institutions, regulations, and standards. Includes a Digital Regulation section with EU AI Act tools.
+- **[Awesome Artificial Intelligence Regulation](https://github.com/EthicalML/awesome-artificial-intelligence-regulation)** — Guidelines, principles, tools, and courses on AI ethics and regulation. 1.4K+ stars.
+- **[Awesome MLOps](https://github.com/kelvins/awesome-mlops)** — MLOps tools including model fairness, privacy, and interpretability. 5K+ stars.
+- **[Awesome OSCAL](https://github.com/oscal-club/awesome-oscal)** — OSCAL (Open Security Controls Assessment Language) ecosystem — tools, libraries, and resources for compliance-as-code.
+- **[Awesome Responsible AI](https://github.com/AthenaCore/AwesomeResponsibleAI)** — Responsible AI tools covering fairness, explainability, privacy, and LLM regulation compliance.
+- **[AI Act Engineering](https://github.com/visenger/aiact-engineering)** — Reference list for the emerging field of "AI Act Engineering" — practices and tools for EU AI Act compliance.
+- **[Awesome ML Model Governance](https://github.com/visenger/Awesome-ML-Model-Governance)** — Resources on ML model governance, ethics, and responsible AI. By the same maintainer as Awesome MLOps (13K+ stars).
+- **[Awesome Compliance](https://github.com/getprobo/awesome-compliance)** — GRC frameworks, standards, and compliance automation tools including ISO 42001 and NIST AI RMF.
 
 ---
 
