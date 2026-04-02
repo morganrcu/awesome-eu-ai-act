@@ -41,6 +41,8 @@ The [EU AI Act](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R
 - **[Evidently AI](https://github.com/evidentlyai/evidently)** — ML monitoring and evaluation framework. 7K+ stars, 35M+ downloads. No compliance mapping, but strong data quality and drift detection (Art. 10 relevant).
 - **[IBM OpenPages](https://www.ibm.com/products/openpages)** — GRC platform with AI governance module. Enterprise-grade, watsonx.governance integration.
 - **[AIR Blackbox](https://github.com/airblackbox/gateway)** — Open-source CLI scanner for EU AI Act technical requirements (Arts. 9–15). Checks Python AI agent code for risk management, data governance, transparency, logging, human oversight, and robustness. 6/6 technical checks. `pip install air-blackbox`
+- **[Microsoft Agent Governance Toolkit](https://github.com/microsoft/agent-governance-toolkit)** — Policy enforcement, zero-trust identity, execution sandboxing, and reliability engineering for autonomous AI agents. Covers 10/10 OWASP Agentic Top 10 controls. SDKs in Python, TypeScript, .NET, Rust, Go. MIT licensed.
+- **[COMPL-AI](https://github.com/compl-ai/compl-ai)** — Compliance-centered LLM evaluation framework with 29+ benchmarks mapped to EU AI Act technical requirements. Built on UK AISI Inspect. By ETH Zurich, INSAIT, and LatticeFlow AI.
 
 ## Assessment & Classification
 
@@ -94,6 +96,7 @@ The [EU AI Act](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R
 - **[Model Card Toolkit](https://github.com/tensorflow/model-card-toolkit)** — Google's toolkit for generating model cards (Annex IV.3).
 - **[Croissant](https://github.com/mlcommons/croissant)** — ML dataset format with provenance metadata (Art. 10 data governance).
 - **[SLSA Framework](https://slsa.dev)** — Supply-chain security framework for software artifacts. Relevant for Art. 15.5 cybersecurity.
+- **[OWASP Top 10 for Agentic Applications](https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/)** — First OWASP risk framework for autonomous AI agents. 10 risks from Agent Goal Hijacking to Rogue Agents. Peer-reviewed by 100+ researchers. Released December 2025.
 
 ## AI Assurance Frameworks
 
@@ -131,6 +134,8 @@ The [EU AI Act](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R
 - **[ISO/IEC 24028:2020](https://www.iso.org/standard/73920.html)** — AI Trustworthiness overview.
 - **[ISO/IEC 5338:2023](https://www.iso.org/standard/81118.html)** — AI System Lifecycle Processes.
 - **[ISO/IEC TR 24029-1:2021](https://www.iso.org/standard/77609.html)** — Assessment of robustness of neural networks. Relevant to Art. 15 (accuracy, robustness, cybersecurity).
+- **[ISO/IEC 42005:2025](https://www.iso.org/standard/44545.html)** — AI System Impact Assessment. Guidance for understanding how AI systems affect individuals, groups, and society. Complements ISO 42001.
+- **[ISO/IEC 42006:2025](https://www.iso.org/standard/44546.html)** — Requirements for bodies providing audit and certification of AI Management Systems. Enables the ISO 42001 certification ecosystem.
 
 ### NIST Frameworks
 
@@ -155,6 +160,9 @@ The [EU AI Act](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R
 - **[Guidelines for GPAI Providers](https://digital-strategy.ec.europa.eu/en/library/guidelines-scope-obligations-providers-general-purpose-ai-models-under-ai-act)** — Detailed scope and obligations for general-purpose AI model providers.
 - **[GPAI Code of Practice — Signatory Taskforce](https://digital-strategy.ec.europa.eu/en/pages/signatory-taskforce-gpai-code-practice)** — Coordination forum for GPAI Code of Practice signatories (OpenAI, Anthropic, Google, Mistral, Amazon, xAI).
 - **[AI Watch](https://ai-watch.ec.europa.eu/)** — European Commission observatory tracking AI development, uptake, and policy impact across Member States.
+- **[AI Act Single Information Platform](https://ai-act-service-desk.ec.europa.eu/)** — Official EU platform with interactive Compliance Checker, AI Act Explorer, timeline, and online helpdesk. Available in EN, FR, DE.
+- **[Code of Practice on AI-Generated Content Marking](https://digital-strategy.ec.europa.eu/en/policies/code-practice-ai-generated-content)** — Article 50 marking & labelling. Second draft published March 2026, final expected June 2026. Covers machine-readable marking by providers and deepfake labelling by deployers.
+- **[GPAI Code of Practice — Final Version](https://code-of-practice.ai/)** — Final version (July 2025). Three chapters: Transparency, Copyright, Safety & Security. Provides "presumption of compliance" if followed.
 
 ## Spain
 
