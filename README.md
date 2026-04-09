@@ -41,6 +41,7 @@ The [EU AI Act](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R
 - **[Evidently AI](https://github.com/evidentlyai/evidently)** — ML monitoring and evaluation framework. 7K+ stars, 35M+ downloads. No compliance mapping, but strong data quality and drift detection (Art. 10 relevant).
 - **[IBM OpenPages](https://www.ibm.com/products/openpages)** — GRC platform with AI governance module. Enterprise-grade, watsonx.governance integration.
 - **[AIR Blackbox](https://github.com/airblackbox/gateway)** — Open-source CLI scanner for EU AI Act technical requirements (Arts. 9–15). Checks Python AI agent code for risk management, data governance, transparency, logging, human oversight, and robustness. 6/6 technical checks. `pip install air-blackbox`
+- **[Asqav](https://github.com/jagmarques/asqav-sdk)** - Open-source Python SDK for AI agent governance with tamper-evident audit trails, tool scanning, and enforcement policies. `pip install asqav`
 - **[Microsoft Agent Governance Toolkit](https://github.com/microsoft/agent-governance-toolkit)** — Policy enforcement, zero-trust identity, execution sandboxing, and reliability engineering for autonomous AI agents. Covers 10/10 OWASP Agentic Top 10 controls. SDKs in Python, TypeScript, .NET, Rust, Go. MIT licensed.
 - **[COMPL-AI](https://github.com/compl-ai/compl-ai)** — Compliance-centered LLM evaluation framework with 29+ benchmarks mapped to EU AI Act technical requirements. Built on UK AISI Inspect. By ETH Zurich, INSAIT, and LatticeFlow AI.
 
