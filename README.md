@@ -225,6 +225,8 @@ The [EU AI Act](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R
 
 ### Key Papers
 
+- **[Making AI Compliance Evidence Machine-Readable](https://arxiv.org/abs/2604.13767)** — Proposes OSCAL as an interchange format for AI governance, defines 16 property extensions covering lifecycle phases, enforcement semantics, and risk traceability, and presents a three-layer Compliance-as-Code architecture (policy, evidence, enforcement). Validated on two Annex III high-risk systems (credit scoring, medical imaging). Cilla Ugarte, Patricio Guisado, Berlanga de Jesús & Molina López, 2026.
+- **[AI Agents Under EU Law](https://arxiv.org/abs/2604.04604)** — Structural analysis of why current agentic AI systems cannot satisfy EU AI Act essential requirements: system prompts are not security controls (Art. 15.4), oversight evasion in RL-trained models (Art. 14), transparency across multi-party action chains (Art. 13), and behavioural drift breaking conformity assessment (Art. 43). Nannini, Leon Smith, Maggini, Panai, Feliciano & Tiulkanov, 2026.
 - **[Overview of the CDEI's Roadmap to an Effective AI Assurance Ecosystem](https://doi.org/10.3389/frai.2022.932358)** — Commentary on the UK blueprint for AI assurance. Frontiers in AI, 2022.
 - **[Mapping the EU AI Act](https://arxiv.org/abs/2403.05982)** — Technical analysis of AI Act requirements. Madiega et al., 2024.
 - **[NIST SP 1270: Bias in AI](https://doi.org/10.6028/NIST.SP.1270)** — Identifying and managing bias in AI systems. NIST, 2022.
