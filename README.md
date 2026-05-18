@@ -250,6 +250,7 @@ The [EU AI Act](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R
 - **[The Batch (DeepLearning.AI)](https://www.deeplearning.ai/the-batch/)** — AI news with regulation coverage.
 - **[Import AI](https://jack-clark.net)** — Jack Clark's AI research and policy newsletter.
 - **[IAPP Daily Dashboard](https://iapp.org/news/daily-dashboard/)** — Privacy and AI governance news.
+- **[Audaria](https://audaria.fr)** — French-language editorial observatory tracking EU AI Act and ISO 42001 developments.
 
 ## Related Awesome Lists
 
