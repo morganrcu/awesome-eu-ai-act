@@ -52,6 +52,7 @@ The [EU AI Act](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R
 - **[Trail-ML](https://trail-ml.com)** — EU AI Act compliance platform. ETH Zurich spin-off. Focus on risk classification and technical documentation.
 - **[Holistic AI](https://holisticai.com)** — AI risk governance platform. Comprehensive auditing and mitigation across 8 risk domains.
 - **[Enkrypt AI](https://enkryptai.com)** — AI risk classification and red-teaming for LLMs.
+- **[AI Act Companion](https://github.com/JKasteele/ai-act-companion)** — Open-source, local-first risk classifier with an architecture-aware AI-security lens (OWASP LLM Top 10, MITRE ATLAS, STRIDE). Deterministic and cited; also generates DPIA, Annex IV, FRIA and a conformity tracker, with NIST AI RMF + ISO 42001 crosswalks. [Live demo](https://huggingface.co/spaces/JesseKasteele/ai-act-companion).
 
 ## AI Governance Platforms
 
