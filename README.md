@@ -77,6 +77,7 @@ The [EU AI Act](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R
 - **[Fiddler AI](https://fiddler.ai)** — ML monitoring, explainability, and fairness monitoring.
 - **[WhyLabs](https://whylabs.ai)** — Data and ML monitoring platform.
 - **[Arize AI](https://arize.com)** — ML observability platform with LLM tracing.
+- **[Future AGI](https://github.com/future-agi/future-agi)** — Open-source platform to simulate, evaluate, trace, guardrail, route, and optimize LLM and AI agent apps in one feedback loop, so agents don't just get monitored, they self-improve. Self-hostable. Apache-2.0.
 
 ## Testing & Red-Teaming
 
