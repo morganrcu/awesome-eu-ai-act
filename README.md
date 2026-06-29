@@ -93,6 +93,7 @@ The [EU AI Act](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R
 
 *Standards and formats for generating auditable compliance evidence.*
 
+- **[AKF — Agent Knowledge Format](https://akf.dev)** — Open file format and Python/TypeScript SDK that embeds trust scores, source provenance, and Article 50 AI-generated-content labels directly into 20+ file types (DOCX, PDF, code, images). Portable, machine-readable transparency evidence that travels inside the file itself, complementing dataset/model formats like Croissant and CycloneDX ML BOM. MIT, [GitHub](https://github.com/HMAKT99/AKF).
 - **[OSCAL (Open Security Controls Assessment Language)](https://pages.nist.gov/OSCAL/)** — NIST standard for machine-readable compliance documentation. Native format for policy-as-code AI governance. Used by Venturalitica SDK.
 - **[CycloneDX ML BOM](https://cyclonedx.org/capabilities/mlbom/)** — Machine Learning Bill of Materials standard. Documents model provenance, datasets, and dependencies (EU AI Act Annex IV.2).
 - **[Model Card Toolkit](https://github.com/tensorflow/model-card-toolkit)** — Google's toolkit for generating model cards (Annex IV.3).
