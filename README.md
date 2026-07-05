@@ -44,6 +44,7 @@ The [EU AI Act](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R
 - **[Microsoft Agent Governance Toolkit](https://github.com/microsoft/agent-governance-toolkit)** — Policy enforcement, zero-trust identity, execution sandboxing, and reliability engineering for autonomous AI agents. Covers 10/10 OWASP Agentic Top 10 controls. SDKs in Python, TypeScript, .NET, Rust, Go. MIT licensed.
 - **[COMPL-AI](https://github.com/compl-ai/compl-ai)** — Compliance-centered LLM evaluation framework with 29+ benchmarks mapped to EU AI Act technical requirements. Built on UK AISI Inspect. By ETH Zurich, INSAIT, and LatticeFlow AI.
 - **[Regulus](https://github.com/neul-labs/regulus)** — Open-source Java compliance plane for Google ADK with 10 regulation profiles. Key differentiator: encodes EU AI Act Articles 9/10/50, GDPR Art. 5(1)(b), DORA Art. 28, NIS2, UK GDPR, FCA SYSC, PRA SS1/23 as composable runtime `BasePlugin` profiles that intersect at the strictest setting per agent session. Hash-chained audit envelopes + GRC adapters.
+- **[CorvinOS](https://github.com/CorvinLabs/CorvinOS)** — Self-hosted agentic OS where EU AI Act Art. 50 bot-disclosure, GDPR Art. 30/32 hash-chained audit, and per-user consent gate (GDPR Art. 6/7) are structural architecture constraints — not configuration options. Apache-2.0, `pip install corvinos`.
 
 ## Assessment & Classification
 
