@@ -49,7 +49,7 @@ The [EU AI Act](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R
 *Tools to classify AI systems by risk level and assess compliance gaps.*
 
 - **[Modulos Risk Agent](https://modulos.ai)** — Interactive AI risk assessment with EUR quantification. No login required. ISO 42001 certified (first, via CertX).
-- **[Regula](https://github.com/kuzivaai/getregula)** — EU AI Act static analysis CLI. 389 detection patterns across 8 languages. Offline, zero runtime dependencies. Apache 2.0.
+- **[Regula](https://github.com/kuzivaai/getregula)** — EU AI Act static analysis CLI. 419 risk patterns across 8 languages. Offline, zero runtime dependencies. Apache 2.0 / EUPL 1.2.
 - **[Trail-ML](https://trail-ml.com)** — EU AI Act compliance platform. ETH Zurich spin-off. Focus on risk classification and technical documentation.
 - **[Holistic AI](https://holisticai.com)** — AI risk governance platform. Comprehensive auditing and mitigation across 8 risk domains.
 - **[Enkrypt AI](https://enkryptai.com)** — AI risk classification and red-teaming for LLMs.
