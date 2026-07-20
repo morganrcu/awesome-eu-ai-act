@@ -54,6 +54,7 @@ The [EU AI Act](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R
 - **[Holistic AI](https://holisticai.com)** — AI risk governance platform. Comprehensive auditing and mitigation across 8 risk domains.
 - **[Enkrypt AI](https://enkryptai.com)** — AI risk classification and red-teaming for LLMs.
 - **[AI Act Companion](https://github.com/JKasteele/ai-act-companion)** — Open-source, local-first risk classifier with an architecture-aware AI-security lens (OWASP LLM Top 10, MITRE ATLAS, STRIDE). Deterministic and cited; also generates DPIA, Annex IV, FRIA and a conformity tracker, with NIST AI RMF + ISO 42001 crosswalks. [Live demo](https://huggingface.co/spaces/JesseKasteele/ai-act-companion).
+- **[SetAIComply](https://www.setaicomply.com)** — Compliance workspace for European SMEs in all 24 EU languages, spanning applicability, Annex III classification, Annex IV technical documentation and DPIAs. Includes a 15-question risk-tier checker that runs entirely in the browser with no signup. [Risk checker](https://www.setaicomply.com/tools/risk-checker).
 
 ## AI Governance Platforms
 
