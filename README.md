@@ -51,6 +51,7 @@ The [EU AI Act](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R
 
 - **[Modulos Risk Agent](https://modulos.ai)** — Interactive AI risk assessment with EUR quantification. No login required. ISO 42001 certified (first, via CertX).
 - **[Trail-ML](https://trail-ml.com)** — EU AI Act compliance platform. ETH Zurich spin-off. Focus on risk classification and technical documentation.
+- **[SetAIComply](https://www.setaicomply.com)** — AI-Act-native compliance workspace for European SMEs: applicability scoping, Annex III risk classification and auto-generated Annex IV technical documentation, plus DPIAs, a regulatory radar and shadow-AI detection. 14 obligation areas, 24 EU languages, EU-hosted, free tier.
 - **[Holistic AI](https://holisticai.com)** — AI risk governance platform. Comprehensive auditing and mitigation across 8 risk domains.
 - **[Enkrypt AI](https://enkryptai.com)** — AI risk classification and red-teaming for LLMs.
 - **[AI Act Companion](https://github.com/JKasteele/ai-act-companion)** — Open-source, local-first risk classifier with an architecture-aware AI-security lens (OWASP LLM Top 10, MITRE ATLAS, STRIDE). Deterministic and cited; also generates DPIA, Annex IV, FRIA and a conformity tracker, with NIST AI RMF + ISO 42001 crosswalks. [Live demo](https://huggingface.co/spaces/JesseKasteele/ai-act-companion).
