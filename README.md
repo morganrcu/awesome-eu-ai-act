@@ -44,6 +44,7 @@ The [EU AI Act](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R
 - **[Microsoft Agent Governance Toolkit](https://github.com/microsoft/agent-governance-toolkit)** — Policy enforcement, zero-trust identity, execution sandboxing, and reliability engineering for autonomous AI agents. Covers 10/10 OWASP Agentic Top 10 controls. SDKs in Python, TypeScript, .NET, Rust, Go. MIT licensed.
 - **[COMPL-AI](https://github.com/compl-ai/compl-ai)** — Compliance-centered LLM evaluation framework with 29+ benchmarks mapped to EU AI Act technical requirements. Built on UK AISI Inspect. By ETH Zurich, INSAIT, and LatticeFlow AI.
 - **[Regulus](https://github.com/neul-labs/regulus)** — Open-source Java compliance plane for Google ADK with 10 regulation profiles. Key differentiator: encodes EU AI Act Articles 9/10/50, GDPR Art. 5(1)(b), DORA Art. 28, NIS2, UK GDPR, FCA SYSC, PRA SS1/23 as composable runtime `BasePlugin` profiles that intersect at the strictest setting per agent session. Hash-chained audit envelopes + GRC adapters.
+- **[Shim](https://getshim.tech)** — AI gateway that enforces compliance on the LLM request path: PII redaction before prompts reach providers (Presidio plus Turkish TCKN/VKN and TR IBAN recognizers), a tamper-evident hash-chain audit log with daily Merkle anchors for Art. 12 record-keeping, human-oversight flagging, and auditor evidence reports. Commercial, free tier.
 
 ## Assessment & Classification
 
