@@ -41,7 +41,6 @@ The [EU AI Act](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R
 - **[Evidently AI](https://github.com/evidentlyai/evidently)** — ML monitoring and evaluation framework. 7K+ stars, 35M+ downloads. No compliance mapping, but strong data quality and drift detection (Art. 10 relevant).
 - **[IBM OpenPages](https://www.ibm.com/products/openpages)** — GRC platform with AI governance module. Enterprise-grade, watsonx.governance integration.
 - **[AIR Blackbox](https://github.com/airblackbox/gateway)** — Open-source CLI scanner for EU AI Act technical requirements (Arts. 9–15). Checks Python AI agent code for risk management, data governance, transparency, logging, human oversight, and robustness. 6/6 technical checks. `pip install air-blackbox`
-- **[Article 50 Disclosure Code](https://github.com/seekdaseek/eu-ai-act-article-50)** — Drop-in code for the Art. 50 transparency duties: chatbot disclosure notice, AI-generated badge, and a script writing the IPTC `trainedAlgorithmicMedia` marker into image XMP. Covers machine-readable marking rather than risk classification. MIT.
 - **[Microsoft Agent Governance Toolkit](https://github.com/microsoft/agent-governance-toolkit)** — Policy enforcement, zero-trust identity, execution sandboxing, and reliability engineering for autonomous AI agents. Covers 10/10 OWASP Agentic Top 10 controls. SDKs in Python, TypeScript, .NET, Rust, Go. MIT licensed.
 - **[COMPL-AI](https://github.com/compl-ai/compl-ai)** — Compliance-centered LLM evaluation framework with 29+ benchmarks mapped to EU AI Act technical requirements. Built on UK AISI Inspect. By ETH Zurich, INSAIT, and LatticeFlow AI.
 - **[Regulus](https://github.com/neul-labs/regulus)** — Open-source Java compliance plane for Google ADK with 10 regulation profiles. Key differentiator: encodes EU AI Act Articles 9/10/50, GDPR Art. 5(1)(b), DORA Art. 28, NIS2, UK GDPR, FCA SYSC, PRA SS1/23 as composable runtime `BasePlugin` profiles that intersect at the strictest setting per agent session. Hash-chained audit envelopes + GRC adapters.
@@ -165,8 +164,7 @@ The [EU AI Act](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R
 - **[AI Watch](https://ai-watch.ec.europa.eu/)** — European Commission observatory tracking AI development, uptake, and policy impact across Member States.
 - **[AI Act Single Information Platform](https://ai-act-service-desk.ec.europa.eu/)** — Official EU platform with interactive Compliance Checker, AI Act Explorer, timeline, and online helpdesk. Available in EN, FR, DE.
 - **[Code of Practice on AI-Generated Content Marking](https://digital-strategy.ec.europa.eu/en/policies/code-practice-ai-generated-content)** — Article 50 marking & labelling. Second draft published March 2026, final expected June 2026. Covers machine-readable marking by providers and deepfake labelling by deployers.
-- **[GPAI Code of Practice — Final Version](https://code-of-practice.ai/)** — Final version (July 2025). Three chapters: Transparency, Copyright, Safety & Security. Provides "presumption of compliance" if followed.
-
+- [Code of Practice on Transparency of AI-Generated Content](https://digital-strategy.ec.europa.eu/en/news/commission-publishes-code-practice-marking-and-labelling-ai-generated-content) - Voluntary EU framework for Article 50 marking, detection, and labelling.
 ## Spain
 
 *Spain is the first EU Member State with a fully operational AI supervisory authority (AESIA) and the most comprehensive published implementation guidance.*
