@@ -39,11 +39,13 @@ The [EU AI Act](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R
 - **[VerifyWise](https://github.com/verifywise-ai/verifywise)** — Open-source AI governance platform. Self-hosted compliance tracking for EU AI Act, ISO 42001, NIST AI RMF.
 - **[IBM OpenPages](https://www.ibm.com/products/openpages)** — GRC platform with AI governance module. Enterprise-grade, watsonx.governance integration.
 - **[AIR Blackbox](https://github.com/airblackbox/gateway)** — Open-source CLI scanner for EU AI Act technical requirements (Arts. 9–15). Checks Python AI agent code for risk management, data governance, transparency, logging, human oversight, and robustness. 6/6 technical checks. `pip install air-blackbox`
+- **[Human-AI Interaction Layer Reviewer](https://github.com/miguelferre/human-ai-governance)** — Open-source Python auditor for the human-AI interaction layer of decision-support systems, scored against Microsoft HAX-18 and Google PAIR. Maps each finding to EU AI Act Arts. 13/14/86 and the NIST AI RMF; ships a CLI, an MCP server and an Inspect AI eval. MIT.
+- **[Shim](https://getshim.tech)** — AI gateway that redacts PII before prompts reach providers and writes a tamper-evident hash-chained audit log for Art. 12 record-keeping. Runtime enforcement on the request path rather than a GRC workspace.
 - **[art50-ci](https://github.com/Rubiss/art50-ci)** — Open-source GitHub Action and CLI for regression-testing delivered AI disclosures and configured C2PA provenance, producing portable evidence without making legal-compliance or signer-trust determinations.
 - **[Microsoft Agent Governance Toolkit](https://github.com/microsoft/agent-governance-toolkit)** — Policy enforcement, zero-trust identity, execution sandboxing, and reliability engineering for autonomous AI agents. Covers 10/10 OWASP Agentic Top 10 controls. SDKs in Python, TypeScript, .NET, Rust, Go. MIT licensed.
 - **[COMPL-AI](https://github.com/compl-ai/compl-ai)** — Compliance-centered LLM evaluation framework with 29+ benchmarks mapped to EU AI Act technical requirements. Built on UK AISI Inspect. By ETH Zurich, INSAIT, and LatticeFlow AI.
 - **[Regulus](https://github.com/neul-labs/regulus)** — Open-source Java compliance plane for Google ADK with 10 regulation profiles. Key differentiator: encodes EU AI Act Articles 9/10/50, GDPR Art. 5(1)(b), DORA Art. 28, NIS2, UK GDPR, FCA SYSC, PRA SS1/23 as composable runtime `BasePlugin` profiles that intersect at the strictest setting per agent session. Hash-chained audit envelopes + GRC adapters.
-- **[CorvinOS](https://github.com/CorvinLabs/CorvinOS)** — Self-hosted agentic OS where EU AI Act Art. 50 bot-disclosure, GDPR Art. 30/32 hash-chained audit, and per-user consent gate (GDPR Art. 6/7) are structural architecture constraints — not configuration options. Apache-2.0, `pip install corvinos`.
+- **[CorvinOS](https://github.com/CorvinLabs/CorvinOS)** — Self-hosted agentic runtime that enforces EU AI Act Art. 50 bot disclosure, hash-chained Art. 12 audit logging and per-user GDPR consent as architectural constraints rather than optional settings. Ships GDPR ROPA and AI Act evidence generators. Apache-2.0, `pip install corvinos`.
 
 ## Assessment & Classification
 
@@ -52,8 +54,10 @@ The [EU AI Act](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R
 - **[Modulos AI Risk Calculator](https://modulos.ai/tools/risk-calculator)** — Interactive risk-tier assessment that outputs an expected annual loss with a confidence range. Runs free with no login; public docs cover the EU AI Act, ISO 42001 and NIST AI RMF. First ISO 42001 product conformity certificate (CertX).
 - **[Trail-ML](https://trail-ml.com)** — EU AI Act compliance platform. Focus on risk classification and Annex IV technical documentation. EU AI Pact signatory. **(demo-only)**
 - **[Holistic AI](https://holisticai.com)** — AI risk governance platform. Comprehensive auditing and mitigation across 40+ risk dimensions. Open-source library: [holistic-ai](https://github.com/holistic-ai/holisticai), Apache-2.0.
-- **[AI Act Companion](https://github.com/JKasteele/ai-act-companion)** — Open-source, local-first risk classifier with an architecture-aware AI-security lens (OWASP LLM Top 10, MITRE ATLAS, STRIDE). Deterministic and cited; also generates DPIA, Annex IV, FRIA and a conformity tracker, with NIST AI RMF + ISO 42001 crosswalks. [Live demo](https://huggingface.co/spaces/JesseKasteele/ai-act-companion).
-- **[SetAIComply](https://www.setaicomply.com)** — Compliance workspace for European SMEs in all 24 EU languages, spanning applicability, Annex III classification, Annex IV technical documentation and DPIAs. Includes a 15-question risk-tier checker that runs entirely in the browser with no signup. [Risk checker](https://www.setaicomply.com/tools/risk-checker).
+- **[AI Act Companion](https://github.com/JKasteele/ai-act-companion)** — Open-source, local-first risk classifier that also generates DPIA, Annex IV, FRIA and a conformity tracker, with NIST AI RMF and ISO 42001 crosswalks. Architecture-aware security lens (OWASP LLM Top 10, MITRE ATLAS, STRIDE). MIT.
+- **[EU AI Regulation Decoded](https://euaird.vercel.app/)** — Web reference mapping EU AI Act obligations to the evidence an auditor expects, filterable by role and risk tier. Underlying obligation-to-evidence dataset published as open data (CC BY 4.0).
+- **[Regula](https://github.com/kuzivaai/getregula)** — Offline CLI that scans source code for EU AI Act risk indicators and maps findings to relevant provisions. 419 detection patterns across 8 language families, zero required runtime dependencies. Apache-2.0/EUPL 1.2.
+- **[SetAIComply](https://www.setaicomply.com)** — EU AI Act compliance workspace for European SMEs covering applicability, Annex III classification, Annex IV technical documentation and DPIAs in all 24 EU languages. Public 15-question risk-tier checker runs client-side with no signup.
 
 ## AI Governance Platforms
 
@@ -95,7 +99,7 @@ The [EU AI Act](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R
 
 *Standards and formats for generating auditable compliance evidence.*
 
-- **[AKF — Agent Knowledge Format](https://akf.dev)** — Open file format and Python/TypeScript SDK that embeds trust scores, source provenance, and Article 50 AI-generated-content labels directly into 20+ file types (DOCX, PDF, code, images). Portable, machine-readable transparency evidence that travels inside the file itself, complementing dataset/model formats like Croissant and CycloneDX ML BOM. MIT, [GitHub](https://github.com/HMAKT99/AKF).
+- **[AKF — Agent Knowledge Format](https://akf.dev)** — Open file format and Python/TypeScript SDK that embeds source provenance, confidence and AI-generated flags directly into 20+ file types (DOCX, PDF, code, images). Ships an `akf audit --regulation eu_ai_act` check mapped to Arts. 12–15, complementing dataset/model formats like Croissant and CycloneDX ML BOM. MIT, [GitHub](https://github.com/HMAKT99/AKF).
 - **[OSCAL (Open Security Controls Assessment Language)](https://pages.nist.gov/OSCAL/)** — NIST standard for machine-readable compliance documentation. Native format for policy-as-code AI governance. Used by Venturalitica SDK.
 - **[CycloneDX ML BOM](https://cyclonedx.org/capabilities/mlbom/)** — Machine Learning Bill of Materials standard. Documents model provenance, datasets, and dependencies (EU AI Act Annex IV.2).
 - **[Model Card Toolkit](https://github.com/tensorflow/model-card-toolkit)** — Google's toolkit for generating model cards (Annex IV.3).
@@ -257,7 +261,7 @@ The [EU AI Act](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R
 - **[Import AI](https://jack-clark.net)** — Jack Clark's AI research and policy newsletter.
 - **[IAPP Daily Dashboard](https://iapp.org/news/daily-dashboard/)** — Privacy and AI governance news.
 - **[Audaria](https://audaria.fr)** — French-language editorial observatory tracking EU AI Act and ISO 42001 developments.
-- **[AI Law Radar — The Dispatch](https://ailawradar.com)** — Free weekly digest and a live, primary-sourced tracker of AI-law obligations and deadlines across 13 jurisdictions (EU AI Act + global), with an open API and subscribe-once calendar feeds.
+- **[AI Law Radar](https://ailawradar.com)** — Primary-sourced tracker of AI-law obligations and deadlines across 15 jurisdictions, re-verified daily. Open dataset (CC BY 4.0) with public API, iCal and CSV export.
 
 ## Related Awesome Lists
 
