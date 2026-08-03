@@ -6,7 +6,7 @@
 
 > **Assessment tells you WHERE you stand. Assurance proves you've DONE something about it.**
 
-The [EU AI Act](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689) entered into force on 1 August 2024. High-risk AI systems (Annex III) must comply by August 2026 (subject to the [Digital Omnibus](https://digital-strategy.ec.europa.eu/en/policies/digital-omnibus) backstop). This list covers tools that help engineers **generate the evidence** required by law — not just classify risk.
+The [EU AI Act](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689) entered into force on 1 August 2024. [Regulation (EU) 2026/1744](https://eur-lex.europa.eu/eli/reg/2026/1744/oj/eng) (the Digital Omnibus on AI), in force since 27 July 2026, moved the high-risk deadlines: **2 December 2027** for Annex III systems (Art. 6(2)) and **2 August 2028** for Annex I systems (Art. 6(1)). Article 50(1) transparency obligations were **not** deferred and apply since 2 August 2026. This list covers tools that help engineers **generate the evidence** required by law — not just classify risk.
 
 **Contributing:** Pull requests welcome. See [CONTRIBUTING.md](CONTRIBUTING.md).
 
@@ -50,7 +50,7 @@ The [EU AI Act](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R
 *Tools to classify AI systems by risk level and assess compliance gaps.*
 
 - **[Modulos Risk Agent](https://modulos.ai)** — Interactive AI risk assessment with EUR quantification. No login required. ISO 42001 certified (first, via CertX).
-- **[Trail-ML](https://trail-ml.com)** — EU AI Act compliance platform. ETH Zurich spin-off. Focus on risk classification and technical documentation.
+- **[Trail-ML](https://trail-ml.com)** — EU AI Act compliance platform. Focus on risk classification and technical documentation.
 - **[Holistic AI](https://holisticai.com)** — AI risk governance platform. Comprehensive auditing and mitigation across 8 risk domains.
 - **[Enkrypt AI](https://enkryptai.com)** — AI risk classification and red-teaming for LLMs.
 - **[AI Act Companion](https://github.com/JKasteele/ai-act-companion)** — Open-source, local-first risk classifier with an architecture-aware AI-security lens (OWASP LLM Top 10, MITRE ATLAS, STRIDE). Deterministic and cited; also generates DPIA, Annex IV, FRIA and a conformity tracker, with NIST AI RMF + ISO 42001 crosswalks. [Live demo](https://huggingface.co/spaces/JesseKasteele/ai-act-companion).
@@ -62,8 +62,8 @@ The [EU AI Act](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R
 - **[Credo AI](https://credo.ai)** — AI governance platform. Policy enforcement, model registry, audit trails. SOC 2 Type II certified.
 - **[Arthur AI](https://arthur.ai)** — ML observability and AI governance. Agent discovery and governance for agentic AI. SOC 2 Type II.
 - **[Fiddler AI](https://fiddler.ai)** — ML monitoring and explainability. Amazon SageMaker integration. $30M Series C (2025).
-- **[Saidot](https://saidot.com)** — AI governance knowledge graph with inherited governance data. EU AI Pact signatory.
-- **[NAAIA](https://naaia.fr)** — French AI governance platform. First ISO 42001 certified in France (AFNOR). EU AI Pact signatory.
+- **[Saidot](https://saidot.ai)** — AI governance knowledge graph with inherited governance data. EU AI Pact signatory.
+- **[NAAIA](https://naaia.ai)** — French AI governance platform. First ISO 42001 certified in France (AFNOR). EU AI Pact signatory.
 - **[Lumenova AI](https://lumenova.ai)** — AI governance and compliance platform. SOC 2 Type II.
 - **[Trustible](https://trustible.com)** — AI governance and policy management.
 - **[OneTrust](https://onetrust.com)** — GRC platform expanding into AI governance. $1.13B raised.
@@ -154,7 +154,7 @@ The [EU AI Act](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R
 - **[AI Office — Implementation Guidance](https://digital-strategy.ec.europa.eu/en/policies/ai-office)** — European Commission AI Office resources.
 - **[Guidelines on AI System Definition](https://digital-strategy.ec.europa.eu/en/library/commission-publishes-guidelines-ai-system-definition-facilitate-first-ai-acts-rules-application)** — Official Commission guidance clarifying what constitutes an AI system under the regulation (Art. 3).
 - **[Guidelines on Prohibited AI Practices](https://digital-strategy.ec.europa.eu/en/library/commission-publishes-guidelines-prohibited-artificial-intelligence-ai-practices-defined-ai-act)** — Commission guidelines on banned AI applications and practices (Art. 5).
-- **[Digital Omnibus Proposal](https://digital-strategy.ec.europa.eu/en/policies/digital-omnibus)** — COM(2025) 836. Proposes deadline adjustments for Annex III systems.
+- **[Digital Omnibus on AI — Regulation (EU) 2026/1744](https://eur-lex.europa.eu/eli/reg/2026/1744/oj/eng)** — Amends the AI Act. In force 27 July 2026; moves Annex III high-risk to 2 December 2027 and Annex I to 2 August 2028.
 - **[EU AI Act Annex III](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689#anx_III)** — High-risk AI system categories.
 - **[EU AI Act Annex IV](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689#anx_IV)** — Technical documentation requirements.
 - **[EU AI Pact](https://digital-strategy.ec.europa.eu/en/policies/ai-pact)** — Voluntary commitment for early compliance. Signatories: Modulos, Saidot, Collibra, and 100+ others.
