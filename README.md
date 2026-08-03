@@ -36,9 +36,7 @@ The [EU AI Act](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R
 *Tools that integrate into ML pipelines and generate compliance evidence.*
 
 - **[Venturalitica SDK](https://github.com/Venturalitica/venturalitica-sdk)** — Open-source Python SDK for EU AI Act and ISO 42001 compliance evidence. Generates OSCAL policies, CycloneDX ML BOM, bias audits, and Annex IV documentation. `pip install venturalitica`
-- **[Giskard](https://github.com/Giskard-AI/giskard)** — Open-source LLM testing and red-teaming framework with vulnerability scanning. CLI-first, integrates with HuggingFace and LangChain.
 - **[VerifyWise](https://github.com/verifywise-ai/verifywise)** — Open-source AI governance platform. Self-hosted compliance tracking for EU AI Act, ISO 42001, NIST AI RMF.
-- **[Evidently AI](https://github.com/evidentlyai/evidently)** — ML monitoring and evaluation framework. 7K+ stars, 35M+ downloads. No compliance mapping, but strong data quality and drift detection (Art. 10 relevant).
 - **[IBM OpenPages](https://www.ibm.com/products/openpages)** — GRC platform with AI governance module. Enterprise-grade, watsonx.governance integration.
 - **[AIR Blackbox](https://github.com/airblackbox/gateway)** — Open-source CLI scanner for EU AI Act technical requirements (Arts. 9–15). Checks Python AI agent code for risk management, data governance, transparency, logging, human oversight, and robustness. 6/6 technical checks. `pip install air-blackbox`
 - **[Microsoft Agent Governance Toolkit](https://github.com/microsoft/agent-governance-toolkit)** — Policy enforcement, zero-trust identity, execution sandboxing, and reliability engineering for autonomous AI agents. Covers 10/10 OWASP Agentic Top 10 controls. SDKs in Python, TypeScript, .NET, Rust, Go. MIT licensed.
@@ -49,25 +47,25 @@ The [EU AI Act](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R
 
 *Tools to classify AI systems by risk level and assess compliance gaps.*
 
-- **[Modulos Risk Agent](https://modulos.ai)** — Interactive AI risk assessment with EUR quantification. No login required. ISO 42001 certified (first, via CertX).
-- **[Trail-ML](https://trail-ml.com)** — EU AI Act compliance platform. Focus on risk classification and technical documentation.
-- **[Holistic AI](https://holisticai.com)** — AI risk governance platform. Comprehensive auditing and mitigation across 8 risk domains.
-- **[Enkrypt AI](https://enkryptai.com)** — AI risk classification and red-teaming for LLMs.
+- **[Modulos AI Risk Calculator](https://modulos.ai/tools/risk-calculator)** — Interactive risk-tier assessment that outputs an expected annual loss with a confidence range. Runs free with no login; public docs cover the EU AI Act, ISO 42001 and NIST AI RMF. First ISO 42001 product conformity certificate (CertX).
+- **[Trail-ML](https://trail-ml.com)** — EU AI Act compliance platform. Focus on risk classification and Annex IV technical documentation. EU AI Pact signatory. **(demo-only)**
+- **[Holistic AI](https://holisticai.com)** — AI risk governance platform. Comprehensive auditing and mitigation across 40+ risk dimensions. Open-source library: [holistic-ai](https://github.com/holistic-ai/holisticai), Apache-2.0.
 - **[AI Act Companion](https://github.com/JKasteele/ai-act-companion)** — Open-source, local-first risk classifier with an architecture-aware AI-security lens (OWASP LLM Top 10, MITRE ATLAS, STRIDE). Deterministic and cited; also generates DPIA, Annex IV, FRIA and a conformity tracker, with NIST AI RMF + ISO 42001 crosswalks. [Live demo](https://huggingface.co/spaces/JesseKasteele/ai-act-companion).
 
 ## AI Governance Platforms
 
 *Enterprise platforms for AI risk management and governance.*
 
-- **[Credo AI](https://credo.ai)** — AI governance platform. Policy enforcement, model registry, audit trails. SOC 2 Type II certified.
+> Most entries in this section are enterprise sales-led products. Those marked **(demo-only)** have no free tier, trial or public product documentation — they are listed because they define the market, not because you can evaluate them yourself. The inclusion criteria in [CONTRIBUTING.md](CONTRIBUTING.md) are being revised to say this explicitly.
+
+- **[Credo AI](https://credo.ai)** — AI governance platform. Policy enforcement, model registry, audit trails. EU AI Pact signatory; public [SDK documentation](https://docs.sdk.credo.ai).
 - **[Arthur AI](https://arthur.ai)** — ML observability and AI governance. Agent discovery and governance for agentic AI. SOC 2 Type II.
-- **[Fiddler AI](https://fiddler.ai)** — ML monitoring and explainability. Amazon SageMaker integration. $30M Series C (2025).
-- **[Saidot](https://saidot.ai)** — AI governance knowledge graph with inherited governance data. EU AI Pact signatory.
-- **[NAAIA](https://naaia.ai)** — French AI governance platform. First ISO 42001 certified in France (AFNOR). EU AI Pact signatory.
-- **[Lumenova AI](https://lumenova.ai)** — AI governance and compliance platform. SOC 2 Type II.
+- **[Saidot](https://saidot.ai)** — AI governance knowledge graph with inherited governance data. EU AI Pact signatory. **(demo-only)**
+- **[NAAIA](https://naaia.ai)** — French AI governance platform. First ISO 42001 certified in France (AFNOR). EU AI Pact signatory. **(demo-only)**
+- **[Lumenova AI](https://lumenova.ai)** — AI governance and compliance platform covering risk, policy and model lifecycle. **(demo-only)**
 - **[Trustible](https://trustible.com)** — AI governance and policy management.
-- **[OneTrust](https://onetrust.com)** — GRC platform expanding into AI governance. $1.13B raised.
-- **[Vanta](https://vanta.com)** — Automated compliance platform with AI governance modules. $504M raised.
+- **[OneTrust](https://onetrust.com)** — General-purpose privacy and GRC platform with an AI governance module. Public developer documentation.
+- **[Vanta](https://vanta.com)** — Automated compliance platform with a named EU AI Act framework (150+ controls). Public developer and help documentation.
 
 ## Monitoring & Observability
 
@@ -82,11 +80,12 @@ The [EU AI Act](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R
 
 *AI Assurance techniques for adversarial testing, robustness, and vulnerability scanning (Art. 15 Robustness).*
 
-- **[Giskard](https://github.com/Giskard-AI/giskard)** — Automated LLM vulnerability scanning and red-teaming. 4K+ GitHub stars.
+- **[Giskard](https://github.com/Giskard-AI/giskard-oss)** — Automated LLM vulnerability scanning and red-teaming. 5.7K+ GitHub stars.
 - **[DeepEval](https://github.com/confident-ai/deepeval)** — LLM evaluation framework with 14+ evaluation metrics.
 - **[PyRIT](https://github.com/Azure/PyRIT)** — Microsoft's Python Risk Identification Tool for generative AI.
 - **[Inspect AI](https://github.com/UKGovernmentBEIS/inspect_ai)** — UK AISI's framework for LLM safety evaluations.
 - **[Inkog](https://github.com/inkog-io/inkog)** — Open-source security scanner for AI agents. Detects prompt injection, infinite loops, token bombing, SQL injection via LLM, and missing human oversight across 20+ frameworks. Maps vulnerabilities to EU AI Act Articles 9, 14 (Human Oversight), and 15 (Accuracy, Robustness, Cybersecurity). CLI + MCP server with SARIF output.
+- **[Enkrypt AI](https://enkryptai.com)** — LLM red-teaming, guardrails and model-security rankings. Public API docs and SDK; open-source `skill-sentinel` and `secure-mcp-gateway`, Apache-2.0.
 - **[AI Verify](https://aiverifyfoundation.sg)** — Singapore government AI testing framework. Supports EU AI Act mappings.
 
 ## Evidence Formats & Frameworks
@@ -106,7 +105,7 @@ The [EU AI Act](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R
 
 - **[CDEI AI Assurance Roadmap](https://www.gov.uk/government/publications/the-roadmap-to-an-effective-ai-assurance-ecosystem)** — Centre for Data Ethics & Innovation (UK). Blueprint for a functional AI assurance ecosystem. Defines the techniques catalogue: auditing, impact assessment, red-teaming, bias analysis, explainability.
 - **[UK AI Safety Institute](https://www.gov.uk/government/organisations/ai-safety-institute)** — Develops evaluations for frontier models. Framework directly applicable to EU AI Act Art. 15 (accuracy, robustness, cybersecurity).
-- **[Inspect AI](https://github.com/UKGovernmentBEIS/inspect_ai)** — UK AISI open-source framework for LLM safety evaluations. Apache 2.0.
+- **[Inspect AI](https://github.com/UKGovernmentBEIS/inspect_ai)** — UK AISI open-source framework for LLM safety evaluations. MIT licensed.
 - **[AI Verify (Singapore IMDA)](https://aiverifyfoundation.sg)** — Governance testing framework. Includes EU AI Act principle mappings.
 - **[ALTAI (Assessment List for Trustworthy AI)](https://digital-strategy.ec.europa.eu/en/library/assessment-list-trustworthy-artificial-intelligence-altai-self-assessment)** — EU Commission self-assessment tool for Trustworthy AI. Based on the 7 HLEG principles.
 - **[HUDERIA (Council of Europe)](https://www.coe.int/en/web/artificial-intelligence/huderia-risk-and-impact-assessment-of-ai-systems)** — Human rights, democracy, and rule of law impact assessment methodology for AI systems. Complements EU AI Act risk management (Art. 9) with fundamental rights perspective.
@@ -146,7 +145,6 @@ The [EU AI Act](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R
 
 - **[NIST AI RMF 1.0](https://airc.nist.gov/RMF_Overview)** — AI Risk Management Framework. Governs, Map, Measure, Manage structure. US-origin but globally adopted.
 - **[NIST AI RMF Playbook](https://airc.nist.gov/Docs/2)** — Practical implementation guidance.
-- **[NIST SP 1270](https://airc.nist.gov/Docs/2)** — Towards a Standard for Identifying and Managing Bias in Artificial Intelligence.
 
 ## Regulatory Documents
 
@@ -226,7 +224,6 @@ The [EU AI Act](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R
 
 - **[EU AI Act Engineering Compliance Guide](https://systima.ai/blog/eu-ai-act-engineering-compliance-guide)** — Practical guide for engineering teams implementing EU AI Act compliance, covering risk classification, technical documentation, audit logging, and conformity assessment.
 - **[The EU AI Act Explained (Article by Article)](https://artificialintelligenceact.eu/the-act/)** — Annotated walkthrough by Future of Life Institute. Each article cross-referenced with recitals.
-- **[NIST AI RMF Playbook](https://airc.nist.gov/Docs/2)** — Practical implementation guidance for the AI Risk Management Framework.
 
 ### Key Papers
 
