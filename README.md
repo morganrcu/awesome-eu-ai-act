@@ -117,17 +117,20 @@ The [EU AI Act](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R
 
 ### EU AI Act Harmonised Standards (JTC 21)
 
-> **Note:** No harmonised standards are currently available (Stage 10-40 only). Organizations must comply with EU AI Act obligations regardless (Art. 40). Standards expected 2026-2027.
+> **Note:** EN 18286 is the first AI Act standard adopted and published (July 2026), but **no standard has yet been cited in the Official Journal**, so **no presumption of conformity exists yet** under Art. 40. The Commission is expected to publish the first references later in 2026. Obligations apply regardless.
 
-| Standard | Scope | Stage | EU AI Act Article |
+| Standard | Scope | Public stage | EU AI Act Article |
 |---|---|---|---|
-| **prEN 18286** | Quality Management System for AI | Stage 40 (public consultation) | Art. 17 |
-| **prEN 18228** | Risk Management | Stage 20 | Art. 9 |
-| **prEN 18284** | Data Governance | Stage 10 | Art. 10 |
-| **prEN 18283** | Fairness | Stage 10 | Art. 10 |
-| **prEN 18229-1** | Transparency & Logging | Stage 20 | Arts. 12, 13 |
-| **prEN 18229-2** | Accuracy & Robustness | Stage 20 | Art. 15 |
-| **prEN 18282** | Cybersecurity | Stage 10 | Art. 15.5 |
+| **EN 18286** | Quality management system for EU AI Act regulatory purposes | Published (60.60, July 2026) — on sale; **not yet cited in the OJEU** | Art. 17 |
+| **prEN 18228** | AI risk management | Enquiry closed (40.60, July 2026) | Art. 9 |
+| **prEN 18282** | Cybersecurity specifications for AI systems | Enquiry closed (40.60, July 2026) | Art. 15 |
+| **prEN 18229-1** | AI trustworthiness framework — Part 1: Logging | Enquiry open (opened 28 May 2026, closing during August 2026; national deadlines vary) | Art. 12 |
+| **prEN 18229-3** | AI trustworthiness framework — Part 3: Human oversight | Enquiry open (closing late Sept / early Oct 2026; national deadlines vary) | Art. 14 |
+| **prEN 18283** | Concepts, measures and requirements for managing bias in AI systems | Drafting (20.60) — no public draft yet | Art. 10 |
+| **prEN 18284** | Quality and governance of datasets in AI | Registered work item (10.99, Sep 2024) — no draft yet | Art. 10 |
+| **prEN 18281** | Evaluation methods for accurate computer vision systems | Enquiry closed (40.60, June 2026) | Supporting deliverable |
+
+> The **prEN 18229** family was restructured during 2026 from two parts into additional parts, one per obligation. Parts 1 and 3 are in public enquiry; further parts are registered work items without published drafts. Some national catalogues still display the pre-restructuring titles.
 
 ### ISO Standards
 
@@ -179,14 +182,14 @@ The [EU AI Act](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R
 - **[Guide 01 — Introduction to the AI Act](https://aesia.digital.gob.es/storage/media/01-guia-introductoria-al-reglamento-de-ia-1770802981.pdf)** — Overview of the regulation scope, definitions, and obligations.
 - **[Guide 02 — Practical examples](https://aesia.digital.gob.es/storage/media/02-guia-practica-y-ejemplos-para-entender-el-reglamento-de-ia.pdf)** — Worked examples for understanding the AI Act.
 - **[Guide 03 — Conformity Assessment](https://aesia.digital.gob.es/storage/media/03-guia-evaluacion-de-conformidad.pdf)** — Art. 43 conformity assessment procedures.
-- **[Guide 04 — Quality Management System](https://aesia.digital.gob.es/storage/media/04-guia-del-sistema-de-gestion-de-la-calidad.pdf)** — Art. 17 QMS requirements / prEN 18286.
+- **[Guide 04 — Quality Management System](https://aesia.digital.gob.es/storage/media/04-guia-del-sistema-de-gestion-de-la-calidad.pdf)** — Art. 17 QMS requirements / EN 18286.
 - **[Guide 05 — Risk Management](https://aesia.digital.gob.es/storage/media/05-guia-de-gestion-de-riesgos.pdf)** — Art. 9 risk management system / prEN 18228.
-- **[Guide 06 — Human Oversight](https://aesia.digital.gob.es/storage/media/06-guia-vigilancia-humana.pdf)** — Art. 14 human oversight measures / prEN 18229-1.
+- **[Guide 06 — Human Oversight](https://aesia.digital.gob.es/storage/media/06-guia-vigilancia-humana.pdf)** — Art. 14 human oversight measures / prEN 18229-3.
 - **[Guide 07 — Data Governance](https://aesia.digital.gob.es/storage/media/07-guia-de-datos-y-gobernanza-de-datos.pdf)** — Art. 10 data quality, fairness metrics / prEN 18284, 18283.
-- **[Guide 08 — Transparency](https://aesia.digital.gob.es/storage/media/08-guia-transparencia.pdf)** — Art. 13 transparency obligations / prEN 18229-1.
-- **[Guide 09 — Accuracy](https://aesia.digital.gob.es/storage/media/09-guia-de-precision.pdf)** — Art. 15 accuracy and performance metrics / prEN 18229-2.
-- **[Guide 10 — Robustness](https://aesia.digital.gob.es/storage/media/10-guia-solidez.pdf)** — Art. 15.4 robustness, drift detection / prEN 18229-2.
-- **[Guide 11 — Cybersecurity](https://aesia.digital.gob.es/storage/media/11-guia-ciberseguridad.pdf)** — Art. 15.5 cybersecurity / prEN 18282.
+- **[Guide 08 — Transparency](https://aesia.digital.gob.es/storage/media/08-guia-transparencia.pdf)** — Art. 13 transparency obligations.
+- **[Guide 09 — Accuracy](https://aesia.digital.gob.es/storage/media/09-guia-de-precision.pdf)** — Art. 15 accuracy and performance metrics.
+- **[Guide 10 — Robustness](https://aesia.digital.gob.es/storage/media/10-guia-solidez.pdf)** — Art. 15 robustness, drift detection.
+- **[Guide 11 — Cybersecurity](https://aesia.digital.gob.es/storage/media/11-guia-ciberseguridad.pdf)** — Art. 15 cybersecurity / prEN 18282.
 - **[Guide 12 — Logging & Records](https://aesia.digital.gob.es/storage/media/12-guia-de-registros.pdf)** — Art. 12 logging requirements / prEN 18229-1.
 - **[Guide 13 — Post-Market Monitoring](https://aesia.digital.gob.es/storage/media/13-guia-vigilancia-poscomercializacion.pdf)** — Art. 72 post-market surveillance.
 - **[Guide 14 — Incident Management](https://aesia.digital.gob.es/storage/media/14-guia-gestion-de-incidentes.pdf)** — Art. 73 serious incident reporting.
