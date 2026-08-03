@@ -63,7 +63,7 @@ The [EU AI Act](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R
 
 *Enterprise platforms for AI risk management and governance.*
 
-> Most entries in this section are enterprise sales-led products. Those marked **(demo-only)** have no free tier, trial or public product documentation — they are listed because they define the market, not because you can evaluate them yourself. The inclusion criteria in [CONTRIBUTING.md](CONTRIBUTING.md) are being revised to say this explicitly.
+> Most entries in this section are enterprise sales-led products. Those marked **(demo-only)** have no free tier, trial or public product documentation — they are listed because they define the market, not because you can evaluate them yourself. See [CONTRIBUTING.md](CONTRIBUTING.md#enterprise-entries-marked-demo-only) for when this exception applies, and open an issue if you think an entry is wrongly marked.
 
 - **[Credo AI](https://credo.ai)** — AI governance platform. Policy enforcement, model registry, audit trails. EU AI Pact signatory; public [SDK documentation](https://docs.sdk.credo.ai).
 - **[Arthur AI](https://arthur.ai)** — ML observability and AI governance. Agent discovery and governance for agentic AI. SOC 2 Type II.
