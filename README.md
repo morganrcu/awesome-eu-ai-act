@@ -94,6 +94,7 @@ The [EU AI Act](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R
 - **[Inkog](https://github.com/inkog-io/inkog)** — Open-source security scanner for AI agents. Detects prompt injection, infinite loops, token bombing, SQL injection via LLM, and missing human oversight across 20+ frameworks. Maps vulnerabilities to EU AI Act Articles 9, 14 (Human Oversight), and 15 (Accuracy, Robustness, Cybersecurity). CLI + MCP server with SARIF output.
 - **[Enkrypt AI](https://enkryptai.com)** — LLM red-teaming, guardrails and model-security rankings. Public API docs and SDK; open-source `skill-sentinel` and `secure-mcp-gateway`, Apache-2.0.
 - **[AI Verify](https://aiverifyfoundation.sg)** — Singapore government AI testing framework. Supports EU AI Act mappings.
+- **[Sentinel Scan](https://github.com/Ventrova/sentinel-scan-cli)** — Open-source CLI that scans MCP servers and agentic AI stacks for OWASP-mapped security findings (prompt injection surface, tool-poisoning, missing auth), producing evidence usable for Art. 15 (Robustness, Accuracy, Cybersecurity) documentation. MIT.
 
 ## Evidence Formats & Frameworks
 
