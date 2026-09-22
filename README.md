@@ -59,6 +59,7 @@ The [EU AI Act](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R
 - **[EU AI Regulation Decoded](https://euaird.vercel.app/)** — Web reference mapping EU AI Act obligations to the evidence an auditor expects, filterable by role and risk tier. Underlying obligation-to-evidence dataset published as open data (CC BY 4.0).
 - **[Regula](https://github.com/kuzivaai/getregula)** — Offline CLI that scans source code for EU AI Act risk indicators and maps findings to relevant provisions. 419 detection patterns across 8 language families, zero required runtime dependencies. Apache-2.0/EUPL 1.2.
 - **[SetAIComply](https://www.setaicomply.com)** — EU AI Act compliance workspace for European SMEs covering applicability, Annex III classification, Annex IV technical documentation and DPIAs in all 24 EU languages. Public 15-question risk-tier checker runs client-side with no signup.
+- **[The AI Act Clock](https://ascentis-ai.com/ai-act-clock/)** — Questionnaire on role, risk tier and timing that returns the binding obligations, each one's application date after the July 2026 Digital Omnibus, and the evidence required. 29 obligations, English and French, no signup. Ruleset published as JSON under CC BY 4.0.
 
 ## AI Governance Platforms
 
