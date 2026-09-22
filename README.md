@@ -102,6 +102,7 @@ The [EU AI Act](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R
 
 - **[AKF — Agent Knowledge Format](https://akf.dev)** — Open file format and Python/TypeScript SDK that embeds source provenance, confidence and AI-generated flags directly into 20+ file types (DOCX, PDF, code, images). Ships an `akf audit --regulation eu_ai_act` check mapped to Arts. 12–15, complementing dataset/model formats like Croissant and CycloneDX ML BOM. MIT, [GitHub](https://github.com/HMAKT99/AKF).
 - **[OSCAL (Open Security Controls Assessment Language)](https://pages.nist.gov/OSCAL/)** — NIST standard for machine-readable compliance documentation. Native format for policy-as-code AI governance. Used by Venturalitica SDK.
+- **[EU AI Act OSCAL catalog](https://github.com/olon-standards/eu-ai-act-oscal)** — Apache-2.0 machine-readable catalog of 50 operator-facing obligations from Regulation (EU) 2024/1689 as amended by Regulation (EU) 2026/1744. Includes five role/risk profiles, an assessment plan, a template SSP, and automated OSCAL validation and profile-resolution checks.
 - **[CycloneDX ML BOM](https://cyclonedx.org/capabilities/mlbom/)** — Machine Learning Bill of Materials standard. Documents model provenance, datasets, and dependencies (EU AI Act Annex IV.2).
 - **[Model Card Toolkit](https://github.com/tensorflow/model-card-toolkit)** — Google's toolkit for generating model cards (Annex IV.3).
 - **[Croissant](https://github.com/mlcommons/croissant)** — ML dataset format with provenance metadata (Art. 10 data governance).
