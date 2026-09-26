@@ -250,7 +250,6 @@ The [EU AI Act](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R
 - **[MLOps Community Slack](https://go.mlops.community/slack)** — 85K+ MLOps practitioners. Active #ai-governance channel.
 - **[DataTalks.Club Slack](https://datatalks.club/slack.html)** — 50K+ data practitioners.
 - **[IAPP AI Governance Community](https://iapp.org)** — Privacy and AI governance professionals.
-- **[LinkedIn: EU AI Act Compliance](https://www.linkedin.com/groups/)** — Multiple groups focused on EU AI Act implementation.
 
 ## News & Newsletters
 
