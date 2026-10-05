@@ -60,6 +60,7 @@ The [EU AI Act](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R
 - **[Regula](https://github.com/kuzivaai/getregula)** — Offline CLI that scans source code for EU AI Act risk indicators and maps findings to relevant provisions. 419 detection patterns across 8 language families, zero required runtime dependencies. Apache-2.0/EUPL 1.2.
 - **[SetAIComply](https://www.setaicomply.com)** — EU AI Act compliance workspace for European SMEs covering applicability, Annex III classification, Annex IV technical documentation and DPIAs in all 24 EU languages. Public 15-question risk-tier checker runs client-side with no signup.
 - **[EU AI Act Risk Checker](https://github.com/tomdxb0004/eu-ai-act-risk-checker)** — Client-side risk-tier triage that returns each obligation, who carries it and when it applies, citing the article behind every result. Updated for the Digital Omnibus (Regulation (EU) 2026/1744); MIT, no backend.
+- **[EuroComply](https://eurogpsr.com/ai-act)** — Free 7-question risk-tier assessment returning the tier, findings with the article behind each one and the documents that tier requires; no signup, optional paid document pack. The same classifier is exposed as a public MCP server (`https://eurogpsr.com/api/mcp`) for assistants such as Claude or Cursor, with dates per the Digital Omnibus (Reg. (EU) 2026/1744).
 
 ## AI Governance Platforms
 
