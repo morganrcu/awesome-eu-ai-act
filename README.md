@@ -75,6 +75,7 @@ The [EU AI Act](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R
 - **[Trustible](https://trustible.com)** — AI governance and policy management.
 - **[OneTrust](https://onetrust.com)** — General-purpose privacy and GRC platform with an AI governance module. Public developer documentation.
 - **[Vanta](https://vanta.com)** — Automated compliance platform with a named EU AI Act framework (150+ controls). Public developer and help documentation.
+- **[AIComplianceHub](https://www.aicompliancehub.nl/)** — Dutch-language EU AI Act platform: AI register, risk classification, AI literacy e-learning. Free plan available.
 
 ## Monitoring & Observability
 
