@@ -129,7 +129,7 @@ The [EU AI Act](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R
 > **Note:** EN 18286 is the first AI Act standard adopted and published (July 2026), but **no standard has yet been cited in the Official Journal**, so **no presumption of conformity exists yet** under Art. 40. The Commission is expected to publish the first references later in 2026. Obligations apply regardless.
 
 | Standard | Scope | Public stage | EU AI Act Article |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | **EN 18286** | Quality management system for EU AI Act regulatory purposes | Published (60.60, July 2026) — on sale; **not yet cited in the OJEU** | Art. 17 |
 | **prEN 18228** | AI risk management | Enquiry closed (40.60, July 2026) | Art. 9 |
 | **prEN 18282** | Cybersecurity specifications for AI systems | Enquiry closed (40.60, July 2026) | Art. 15 |
@@ -284,12 +284,14 @@ The [EU AI Act](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R
 Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) before submitting a pull request.
 
 **Criteria for inclusion:**
+
 - Actively maintained (updated within 12 months)
 - Directly relevant to EU AI Act compliance or AI governance
 - Open-source tools: must have a public repository
 - Commercial tools: must have a free tier, trial, or public documentation
 
 **Not included:**
+
 - Paid-only tools with no free tier or public docs
 - Tools with no EU AI Act relevance
 - Abandoned projects (no activity > 12 months)
