@@ -47,6 +47,7 @@ The [EU AI Act](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R
 - **[Regulus](https://github.com/neul-labs/regulus)** — Open-source Java compliance plane for Google ADK with 10 regulation profiles. Key differentiator: encodes EU AI Act Articles 9/10/50, GDPR Art. 5(1)(b), DORA Art. 28, NIS2, UK GDPR, FCA SYSC, PRA SS1/23 as composable runtime `BasePlugin` profiles that intersect at the strictest setting per agent session. Hash-chained audit envelopes + GRC adapters.
 - **[CorvinOS](https://github.com/CorvinLabs/CorvinOS)** — Self-hosted agentic runtime that enforces EU AI Act Art. 50 bot disclosure, hash-chained Art. 12 audit logging and per-user GDPR consent as architectural constraints rather than optional settings. Ships GDPR ROPA and AI Act evidence generators. Apache-2.0, `pip install corvinos`.
 - **[GOPAL](https://github.com/Principled-Evolution/gopal)** — Apache-2.0 library of OPA/Rego policies encoding AI-governance regulations as executable allow/deny checks, with 29 EU AI Act policies under `international/eu_ai_act/v1/`. Plain Rego rather than a framework: the policies load into an OPA deployment you already run, with no SDK to adopt and no Python in the evaluation path.
+- [EU AI Act Ready](https://wordpress.org/plugins/eu-ai-act-ready/) - Free GPL WordPress plugin for Article 50 transparency: AI content and image labels, chatbot disclosure notices, an AI systems inventory and an exportable compliance report.
 
 ## Assessment & Classification
 
