@@ -263,6 +263,7 @@ The [EU AI Act](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R
 - **[IAPP Daily Dashboard](https://iapp.org/news/daily-dashboard/)** — Privacy and AI governance news.
 - **[Audaria](https://audaria.fr)** — French-language editorial observatory tracking EU AI Act and ISO 42001 developments.
 - **[AI Law Radar](https://ailawradar.com)** — Primary-sourced tracker of AI-law obligations and deadlines across 15 jurisdictions, re-verified daily. Open dataset (CC BY 4.0) with public API, iCal and CSV export.
+- **[AI Act Radar](https://aiactradar.com)** — Webhook, REST API and MCP server over a continuously updated record of EU AI Act obligations and regulatory events from 22 official sources. Covers the national implementation layer (BNetzA, CNIL, AESIA, Dutch AP and more), and cites the primary source on every answer.
 
 ## Related Awesome Lists
 
