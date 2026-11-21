@@ -48,6 +48,8 @@ The [EU AI Act](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R
 - **[CorvinOS](https://github.com/CorvinLabs/CorvinOS)** — Self-hosted agentic runtime that enforces EU AI Act Art. 50 bot disclosure, hash-chained Art. 12 audit logging and per-user GDPR consent as architectural constraints rather than optional settings. Ships GDPR ROPA and AI Act evidence generators. Apache-2.0, `pip install corvinos`.
 - **[GOPAL](https://github.com/Principled-Evolution/gopal)** — Apache-2.0 library of OPA/Rego policies encoding AI-governance regulations as executable allow/deny checks, with 29 EU AI Act policies under `international/eu_ai_act/v1/`. Plain Rego rather than a framework: the policies load into an OPA deployment you already run, with no SDK to adopt and no Python in the evaluation path.
 
+- **[Art.50(2) Marking Readiness Pack](https://derbaroser-eng.github.io/art50-marking/)** - Tests whether Article 50 machine-readable marks survive metadata stripping and re-encoding, with an engineering evidence report for providers closing the 2 December 2026 marking transition.
+
 ## Assessment & Classification
 
 *Tools to classify AI systems by risk level and assess compliance gaps.*
